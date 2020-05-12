@@ -1,0 +1,44 @@
+@import"_variables";
+
+body{
+    margin: 15px;
+    position: relative;
+    font-size: 30px;
+    background-image: linear-gradient(-100deg,$bodycolor1,$bodycolor2);
+
+    -webkit-animation-name: bd;
+    -webkit-animation-duration: 3s;
+
+
+    animation-name: bd;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes bd{
+    from {opacity: 0; left: -100%;} to {opacity: 1; left:0%;}
+}
+
+@keyframes bd{
+    from {opacity: 0; left: -100%;} to {opacity: 1; left:0%;}
+}
+
+/*
+@-webkit-keyframes bd{
+    0% {opacity: 0; left: 100%;}
+    20% {opacity: 0.2; left: -80%;;}
+    40% {opacity: 0.4; left: -60%;}
+    60% {opacity: 0.6; left: -40%;}
+    80% {opacity: 0.8; left: -20%;}
+    100% {opacity: 1; left: 0%;}
+}
+
+@keyframes bd{
+    0% {opacity: 0; left: 100%;}
+    20% {opacity: 0.2; left: -80%;;}
+    40% {opacity: 0.4; left: -60%;}
+    60% {opacity: 0.6; left: -40%;}
+    80% {opacity: 0.8; left: -20%;}
+    100% {opacity: 1; left: 0%;}
+}
+*/
+

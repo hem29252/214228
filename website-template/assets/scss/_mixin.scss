@@ -1,0 +1,30 @@
+@mixin items-flex(){
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 12px;
+}
+
+@mixin items(){  
+    width: 34%;
+    height: 310px;
+    background-color: turquoise;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+
+@mixin footer-color($footcolor){
+    background-color: $footcolor;
+}
+
+@mixin footer-height($footheight){
+    margin-top: 12px;
+    width: 100%;
+    height: $footheight;
+}
+@mixin box-shodow-item($px1, $px2, $px3 ,$px4 ,$shcolor ){
+    box-shadow: $px1 $px2 $px3 $px4 $shcolor;
+}
